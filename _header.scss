@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    position:fixed;
+    box-shadow: 0 7px 15px 0 rgba(0,0,0,.07);
+    z-index:1;
+
+    a{
+        color: black;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .header-wrap{
+        display: flex;
+        justify-content: space-between;
+        width: 1150px;
+
+        .logo{
+            height: 35px;
+            width: 115;
+        }
+        .header-block{
+            display: flex;
+            justify-content: center;
+
+            .menu{
+                display: flex;
+                flex-wrap: wrap;
+                list-style-type: none;
+                column-gap: 25px;
+                justify-content: center;
+                align-items: center;
+                margin-left: 120px;
+            }
+        }
+        
+    }
+}

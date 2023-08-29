@@ -1,0 +1,20 @@
+@use 'base';
+@use 'header';
+@use 'left-side';
+@use 'right-side';
+@use 'responsive';
+
+.main-page-wrap{
+    display: flex;
+    gap: 30px;
+    width: 1150px;
+    background-color: rgb(241, 241, 241);
+    padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+
+    @include responsive.md{
+        flex-direction: column;
+    }
+}
